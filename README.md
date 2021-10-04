@@ -53,12 +53,28 @@ The following sequence shows one possible progression of a solution to the game
 above (note that the order in which the pieces are played is not important; this
 is just one possible sequence of moves).
 
+<img src="assets/game1.png" width="200">
+
+<img src="assets/game2.png" width="200">
+
+<img src="assets/game3.png" width="200">
+
+<img src="assets/game4.png" width="200">
+
+<img src="assets/game5.png" width="200">
+
+<img src="assets/game6.png" width="200">
+
+<img src="assets/game7.png" width="200">
+
 
 
 #### Board
 
 The game is played on a board comprised of 50 **locations** arranged
 in a 10x5 grid.  
+
+<img src="assets/board-labelled.png" width="300">
 
 In the real-world game, each location consists of a
 circular indent into which a piece may fit.  We refer to the placement of
@@ -70,6 +86,8 @@ to `9`, followed by another identifying the row from `0` to `4`.
 In the example illustrated below we show how the location of pieces on the board
 is encoded.   Notice that we identify each piece by the location of the upper-left
 corner of its _bounding box_ (a rectangular box drawn around the piece).
+
+<img src="assets/game1boxes.png" width="300">
 
 For example, in the game above, the _lime_ piece (lower-left, lime-green in color) is
 in position `02` (column `0`, row `2`), the _sky-blue_ piece (bottom center-left) is
@@ -124,7 +142,7 @@ this assignment, we use lower case letters (e.g. `b`) to encode a piece in its
 _single protrusion_ orientation (left half of the diagram), and we use upper case letters
 (e.g. `B` to encode a piece its _double protrusion_ orientation (right half of the diagram).
 
-
+<img src="assets/all_pieces.png" width="600">
 
 
 In the game below, you can see that _lime_ was placed in the `L` flip (double protrusion) and the `W` 
